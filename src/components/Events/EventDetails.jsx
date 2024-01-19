@@ -17,7 +17,6 @@ export default function EventDetails() {
     queryFn: ({ signal }) => {
       return fetchEvent({ signal, id });
     },
-    staleTime: 5000,
   });
 
   const {
